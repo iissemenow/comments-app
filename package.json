@@ -1,0 +1,24 @@
+{
+  "name": "comments-app",
+  "version": "0.0.1",
+  "description": "Мини-тестовое приложение, api комментариев",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- test/app.test.js -u exports -R spec"
+  },
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.1",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "coveralls": "^2.12.0",
+    "istanbul": "^1.0.0-alpha.2",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  }
+}
